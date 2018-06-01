@@ -4,7 +4,7 @@
 //exports.port = 6611;
 //exports.myUrl = 'wss://mydomain.com/bb';
 exports.bServeAsHub = false;
-exports.bLight = false;
+exports.bLight = true;
 
 
 exports.storage = 'sqlite';

@@ -4,6 +4,10 @@
   "author": "Byteball",
   "version": "0.1.9",
   "main": "start.js",
+  "scripts": {
+    "start": "node .",
+    "deploy": "npm install && pm2 start ./pm2.json --watch"
+  },
   "keywords": [
     "wallet",
     "headless",

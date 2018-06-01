@@ -1,0 +1,10 @@
+{
+  "apps": [
+      {
+          "name": "headless-byteball",
+          "script": "start.js",
+          "args": "start",
+          "exec_interpreter": "node"
+      }
+  ]
+}
